@@ -2,7 +2,7 @@
 
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Scikit-Learn](https://img.shields.io/badge/Library-ScikitLearn-orange.svg)
 
-This repository consists of files required for end to end implementation and deployment of Machine Learning Flight Fare Prediction web application created with Flask on Heroku platform.
+This repository consists of files required for end to end implementation and deployment of Machine Learning Bank Notes Authenticator web application created with flask and deployed on Heroku platform.
 
 ## Table of Contents
   * [App Link](#app-link)
@@ -49,7 +49,7 @@ The next step would be to follow the instruction given in the [Heroku Documentat
 
 ## Bug / Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/divyansh1195/Airline-Fare-Prediction/issues) here by including your search query and the expected result
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/divyansh1195/Bank-Notes-Authenticator/issues) here by including your search query and the expected result
 
 
 ## Please do ⭐ the repository, if it helped you in anyway.
