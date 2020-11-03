@@ -29,6 +29,9 @@ A glimpse of the web app:
 
 ## About the App
 The Bank Notes Authenticator is a flask web application which detects whether the bank notes are authentic or not based on certain parameters like variance, skewness, curtosis, and entropy. The code is written in Python 3.6.10. 
+
+As per the research, for values of variance between –3.3203 and –0.4080 and having skewness <= 0.7201, the model includes one more predictor Entropy, which detects that approximately 95% of banknotes are Fake if their entropy values are less than or equal to -0.2077, while for the entropy values greater than –0.2077 have 100% fake banknote  detection. Furthermore, for variance between –0.4080 and 0.4957 and Kurtosis less than –0.1965, 71% of fake banknotes can be  predicted  and for value of Kurtosis greater  than –0.1965,  75% of Genuine banknotes can be detected. Similarly other decision conditions are made based on independent variable chosen in the model which helps in classifying the fake banknote from genuine banknotes.
+
 If you don't have Python installed, you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
 pip install -r requirements.txt
